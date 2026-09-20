@@ -1,0 +1,153 @@
+// Q.1
+// class Solve {
+//   hasDuplicate(nums) {
+//     const seen = new Set();
+
+//     for (let num of nums) {
+//       if (seen.has(num)) {
+//         return true;
+//       }
+
+//       seen.add(num);
+//     }
+
+//     return false;
+//   }
+// }
+
+// const solution = new Solve();
+// console.log(solution.hasDuplicate([1,2,3,3]));
+// console.log(solution.hasDuplicate([1,2,3,4]));
+
+// Q.2
+
+
+
+
+
+// const fruits = ["apple", "banana", "orange"];
+// let fr = JSON.stringify(fruits);
+// let flen = fruits.length;
+// let text = "<ul>";
+// for (let i = 0; i < flen; i++) {
+//   text += "<li>" + fruits[i] + "</li>";
+// }
+// text += "</ul>";
+
+// fruits.push("mango");
+
+// fruits.push("grape","avacado");
+
+// console.log(fruits);
+
+// fruits.pop();
+
+// console.log(fruits);
+
+// fruits.pop();
+
+// console.log(fruits);
+
+// fruits.pop();
+
+// console.log(fruits);
+
+// fruits.unshift("mango");
+
+// console.log(fruits);
+
+// fruits.shift();
+
+// console.log(fruits);
+// const fruits = ["apple", "banana", "orange"];
+// console.log(fruits);
+// fruits.push("mango");
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.unshift("grape");
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+
+// const numbers = [10, 20, 30, 40, 50];
+
+// numbers.forEach(function(num) {
+//     console.log("helo", num);
+// });
+
+// const doubled = numbers.map(num => {
+//     return num * 2;
+// });
+
+// console.log(doubled);
+
+// const numbers = [10, 15, 20, 25, 30, 69];
+
+// const result = numbers.filter(num => num > 20);
+
+// console.log(result);
+
+// const users = [
+//     { name: "Ali", age: 17 },
+//     { name: "Ahmed", age: 22 },
+//     { name: "Rafay", age: 25 }
+// ];
+
+// const adults = users.filter(user => user.age >= 18);
+// console.log(adults);
+
+// const numbers = [10, 15, 20, 25, 30, 69];
+
+// const result = numbers.find(num => num > 95);
+// console.log(result);
+
+// const fruits = ["apple", "banana", "orange"];
+
+// console.log(fruits.includes("avadaco"));
+
+// const numbers = [10, 15, 20, 25, 30, 69];
+
+// const result = numbers.every(num => num > 9);
+// console.log(result);
+
+// const names = ["Rafay", "Ali", "Ahmed"];
+
+// names.sort();
+// console.log(names);
+
+// const numbers = [10, 2, 30, 5];
+
+// numbers.sort((a,b) => b - a);
+
+// console.log(numbers);
+
+// const numbers = [10, 15, 20, 25, 30, 69];
+
+// numbers.forEach(function(num) {
+//   console.log(num);
+// });
+
+// const doubled = numbers.map(num => {
+//   return num * 2
+// })
+// console.log(doubled);
+
+// const greater = numbers.filter(num => num > 15);
+// console.log(greater);
+
+// const firstNumber = numbers.find(num => num > 18);
+// console.log(firstNumber);
+
+// console.log(numbers.includes(25));
+
+// const someNum = numbers.some(num => num > 25);
+// console.log(someNum);
+
+// const everyNum = numbers.every(num => num > 0);
+// console.log(everyNum);
+
+// const total = numbers.reduce((sum, num) => {
+//   return sum + num;
+// }, 0);
+// console.log(total);
