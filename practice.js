@@ -222,3 +222,29 @@
 // }
 
 // outer();
+// function outer() {
+//     const name = "Rafay";
+
+//     function inner() {
+//         console.log(name);
+//     }
+
+//     return inner;
+// }
+// const myFunction = outer();
+
+// myFunction();
+
+// function counter() {
+//     let count = 0;
+
+//     return function () {
+//         count++;
+//         console.log(count);
+//     };
+// }
+// const myCounter = counter();
+
+// myCounter();
+// myCounter();
+// myCounter();
