@@ -150,4 +150,35 @@
 // const total = numbers.reduce((sum, num) => {
 //   return sum + num;
 // }, 0);
-// console.log(total);
+// // console.log(total);
+
+// function add(a,b) {
+//   return a + b
+// };
+// console.log(add(1,2));
+
+// function checkNumber(num){
+//   if (num % 2 === 0){
+//     return "number is even";
+//   }
+//   return "odd";
+// }
+
+// console.log(checkNumber(2));
+
+// function addHello(name){
+//   console.log("hello", name);
+// }
+// addHello("Rafay");
+
+// const arrowAdd = (a, b) => {
+//   return a + b;
+// };
+// console.log(arrowAdd(2,3));
+
+// function ran(num, opt){
+//   return opt(num);
+// }
+
+// const res = ran(2, num => num + 6);
+// console.log(res);
