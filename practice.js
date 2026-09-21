@@ -182,3 +182,43 @@
 
 // const res = ran(2, num => num + 6);
 // console.log(res);
+
+// function greet() {
+//     const message = "Hello";
+    
+//     console.log(message);
+// }
+
+// greet();
+
+// console.log(message);
+
+// const x = 10;
+
+// function test() {
+//     const x = 20;
+    
+//     console.log(x);
+// }
+
+// test();
+
+// console.log(x);
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+// }
+
+// console.log(i);
+
+// function outer() {
+//     const name = "Rafay";
+    
+//     function inner() {
+//         console.log(name);
+//     }
+
+//     inner();
+// }
+
+// outer();
