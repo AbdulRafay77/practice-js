@@ -248,3 +248,67 @@
 // myCounter();
 // myCounter();
 // myCounter();
+
+// const user = {
+//     name: "Rafay",
+//     age: 25,
+//     role: "Developer"
+// };
+
+// console.log(user.age);
+// console.log(user.role);
+// console.log(user.name);
+
+// const user = {
+//     name: "Rafay"
+// };
+
+// const { name, age = 25 } = user;
+
+// console.log(age);
+
+// const fruits = ["apple", "banana"];
+
+// const moreFruits = [...fruits, "orange"];
+
+// console.log(moreFruits);
+
+// const person = {
+//   name: "Rafay",
+//   age: 25,
+//   city: "Karachi"
+// };
+
+// // 1. Destructuring
+// const { name, age } = person;
+
+// console.log(name);
+// console.log(age);
+
+// // 2. Spread + update
+// const updatedPerson = {
+//   ...person,
+//   age: 26
+// };
+
+// console.log(updatedPerson);
+
+// // 3. Array destructuring + rest
+// const numbers = [10, 20, 30, 40, 50];
+
+// const [first, ...rest] = numbers;
+
+// console.log(first);
+// console.log(rest);
+
+// // 4. Spread
+// const updated = [...numbers, 60];
+
+// console.log(updated);
+
+// // 5. Rest in function
+// function any(...numbers) {
+//   console.log(numbers);
+// }
+
+// any(1, 2, 3, 4);
