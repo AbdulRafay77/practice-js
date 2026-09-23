@@ -333,3 +333,30 @@
 // const result = calculate(10,5, result => result * 2);
 // console.log(result);
 
+// // 1
+// function greet(name, callback){
+//   console.log("Hello "+ name);
+//   callback()
+// }
+
+// function wel(){
+//   console.log("Welcome to JavaScript");
+// }
+
+// greet("Rafay", wel);
+
+// // 2
+// function operate(a, b, operation){
+//   return operation(a, b);
+// }
+
+// const add = operate(10, 5, (a, b) => a + b);
+// console.log(add);
+// const sub = operate(10, 5, (a, b) => a - b);
+// console.log(sub);
+
+// // 3
+// const numbers = [1,2,3,4];
+// numbers.map(num => num * 3);
+// console.log(numbers);
+// // this multiply every number in array numbers by 3 ====> [3,6,9,12]
