@@ -360,3 +360,99 @@
 // numbers.map(num => num * 3);
 // console.log(numbers);
 // // this multiply every number in array numbers by 3 ====> [3,6,9,12]
+
+// const promise = new Promise((resolve, reject) => {
+//   resolve("Success!");
+// });
+
+// promise.then(result => {
+//   console.log(result);
+// });
+
+// const promise = new Promise((resolve, reject) => {
+//   reject("Something went wrong");
+// });
+// promise.catch(error => {
+//   console.log(error);
+// });
+
+// const promise = new Promise((resolve, reject) => {
+//   reject("Failed");
+// });
+
+// promise
+//   .then(result => {
+//     console.log(result);
+//   })
+//   .catch(error => {
+//     console.log(error);
+//   });
+
+// function getUser() {
+//   return new Promise((resolve, reject) => {
+
+//     setTimeout(() => {
+//       resolve({ name: "Rafay", age: 25 });
+//     }, 2000);
+
+//   });
+// }
+
+// getUser()
+//   .then(user => {
+//     console.log(user);
+//   })
+//   .catch(error => {
+//     console.log(error);
+//   });
+
+// instead of adding ^ ".then and .catch" use "async/await" v
+// async function run(){
+//   const user = await getUser();
+
+//   console.log(user);
+// }
+
+// run();
+
+// try/catch error handling
+
+// async function run(){
+//   try{
+//     const user = await getUser();
+
+//     console.log(user);
+//   }catch(error){
+//     console.log(error);
+//   }
+// }
+
+// run();
+
+// function getNumber(){
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(100);
+//     }, 1000);
+//   });
+// }
+
+// async function run(){
+//   const number = await getNumber();
+
+//   console.log(number);
+// }
+
+// // by try/catch
+
+// async function run(){
+//   try{
+//     const number = await getNumber();
+
+//     console.log(number);
+//   }catch(error){
+//     console.log(error);
+//   }
+// }
+
+// run();
