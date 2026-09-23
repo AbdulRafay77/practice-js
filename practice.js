@@ -312,3 +312,24 @@
 // }
 
 // any(1, 2, 3, 4);
+
+
+// function greet(name, callback){
+//   console.log("hello " + name);
+//   callback();
+// };
+
+// function finished(){
+//   console.log("Done[]][[]][][]");
+// };
+
+// greet("rafay", finished);
+
+// function calculate(a, b, callback){
+//   const result = a + b;
+//   return callback(result);
+// }
+
+// const result = calculate(10,5, result => result * 2);
+// console.log(result);
+
