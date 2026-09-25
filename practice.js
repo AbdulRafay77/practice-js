@@ -462,3 +462,46 @@
 // console.log(add(10,5));
 // console.log(sub(10,5));
 // console.log(mul(10,5));
+
+
+// 1. Arrays
+// 20,30,40
+// 2.map()
+// [2,4,6,8]
+// 3.filter()
+// 15,20,25
+// 4.find()
+// 15
+// 5.objects+desctructuring
+// Rafay
+// 25
+// 6.Spread
+// name: "Rafay",
+// age: 26
+// 7.scope
+// 20
+// 10
+// 8.callback
+// there is call back operation in this code 
+// result = 50
+// 9.closure
+// it is because the closure saves the previous value of count
+// 10.async/await
+// the first one will save the value of function getUser() in result but if it takes time it will move to the next line
+// the second one will wait for the function getUser to finish processing and save thhe value in result then move to the next line 
+// 11.try/catch
+// we write it like this is because if the promise dose not return it will display an error instead of ignoring it and moving to the next line 
+// 12. modules
+// we can use function add in a different file (in app.js file while it is in math.js)
+// 13.final quesion
+const products = [
+  { name: "Laptop", price: 1000 },
+  { name: "Phone", price: 500 },
+  { name: "Mouse", price: 50 }
+];
+
+function expensiveProducts(){
+  const items = products.filter(product => product.price > 100);
+  console.log(items)
+};
+expensiveProducts();
