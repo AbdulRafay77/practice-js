@@ -493,15 +493,15 @@
 // we write it like this is because if the promise dose not return it will display an error instead of ignoring it and moving to the next line 
 // 12. modules
 // we can use function add in a different file (in app.js file while it is in math.js)
-// 13.final quesion
-const products = [
-  { name: "Laptop", price: 1000 },
-  { name: "Phone", price: 500 },
-  { name: "Mouse", price: 50 }
-];
+// // 13.final quesion
+// const products = [
+//   { name: "Laptop", price: 1000 },
+//   { name: "Phone", price: 500 },
+//   { name: "Mouse", price: 50 }
+// ];
 
-function expensiveProducts(){
-  const items = products.filter(product => product.price > 100);
-  console.log(items)
-};
-expensiveProducts();
+// function expensiveProducts(){
+//   const items = products.filter(product => product.price > 100);
+//   console.log(items)
+// };
+// expensiveProducts();
